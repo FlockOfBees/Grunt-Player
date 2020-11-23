@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+
+    <div class="keys"> <!--//Keys, their data keys, and their keyboard input-->
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class = "sound">OOH</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">WAH</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">AAH</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">AAH</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">AAH</span>
+      </div>
+      <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">AUGH</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">AUGH</span>
+      </div>
+      <!--
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">tom</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">tink</span>
+      </div>
+    -->
+    </div>
+
+<!--collection of sounds for the drumkit-->
+
+    <audio data-key="65" src="sounds/Ooh(1).wav"></audio>
+    <audio data-key="83" src="sounds/Wah(2).wav"></audio>
+    <audio data-key="68" src="sounds/aah(3).wav"></audio>
+    <audio data-key="70" src="sounds/aah(4).wav"></audio>
+    <audio data-key="71" src="sounds/aah(5).wav"></audio>
+    <audio data-key="72" src="sounds/Augh(6).wav"></audio>
+    <audio data-key="74" src="sounds/Augh(7).wav"></audio>
+  <!--
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
+  -->
+
+
+  </body>
+</html>
